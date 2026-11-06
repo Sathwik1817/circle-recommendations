@@ -1,0 +1,33 @@
+{
+  "name": "circle-recommendations",
+  "version": "1.0.0",
+  "description": "Lean In Circle recommendations API",
+  "scripts": {
+    "dev": "node --disable-warning=ExperimentalWarning --import tsx --watch src/server.ts",
+    "start": "node --disable-warning=ExperimentalWarning --import tsx src/server.ts",
+    "seed": "node --disable-warning=ExperimentalWarning --import tsx scripts/seed.ts",
+    "recommend": "node --disable-warning=ExperimentalWarning --import tsx scripts/recommend.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/supertest": "^7.2.1",
+    "supertest": "^7.3.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "private": true
+}
