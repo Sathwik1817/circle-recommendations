@@ -1,6 +1,6 @@
 # How I used AI on this take-home
 
-The brief encourages using AI tools, so here is how I used them and where I overrided them.
+The brief encourages using AI tools, so here is how I used them and where I changed what they gave me.
 
 Used AI for Express/SQLite boilerplate, test harness, a first pass at the data profiling scripts, drafting the scoring functions and test cases, and reviewing this document.
 
